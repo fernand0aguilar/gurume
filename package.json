@@ -1,0 +1,28 @@
+{
+  "name": "gurume",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fernand0aguilar/gurume.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fernand0aguilar/gurume/issues"
+  },
+  "homepage": "https://github.com/fernand0aguilar/gurume#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "mongodb": "^3.1.8"
+  },
+  "devDependencies": {
+    "mocha": "^5.2.0",
+    "tape": "^4.9.1"
+  }
+}

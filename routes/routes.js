@@ -33,10 +33,10 @@ router.get('/documents/:id', (req, res, next) => {
         if(err){
             res.status(400).send({'error': err})
         }
-        if(result === undefined){
+        if(result == undefined){
             res.status(400).send({'error': 'No Document matching that id was found'})
         }
-        else {
+        else{
             res.status(200).send(result)
         }
     })

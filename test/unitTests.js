@@ -24,7 +24,7 @@ describe('API Integration Test', () => {
                     if (err) {
                         return assert.fail(JSON.stringify(res));
                     }
-                    assert.pass('Created a new document successfully, test passed!');
+                    assert.pass('Created a new document successfully, test passed!')
                     assert.end();
                 })
         })
@@ -49,8 +49,8 @@ describe('API Integration Test', () => {
                     if (err) {
                         return assert.fail(JSON.stringify(res));
                     }
-                    assert.pass('Got a specific document successfully, test passed!');
-                    assert.end();
+                    assert.pass('Got a specific document successfully, test passed!')
+                    assert.end()
                 })
         })
         test('/api/documents/edit/:id', assert => {
@@ -62,8 +62,8 @@ describe('API Integration Test', () => {
                     if (err) {
                         return assert.fail(JSON.stringify(res));
                     }
-                    assert.pass('Edited a document successfully, test passed!');
-                    assert.end();
+                    assert.pass('Edited a document successfully, test passed!')
+                    assert.end()
                 })
         })
         test('/api/documents/delete/:id', assert => {
@@ -74,9 +74,9 @@ describe('API Integration Test', () => {
                     if (err) {
                         return assert.fail(JSON.stringify(res));
                     }
-                    assert.pass('Deleted a specific document successfully, test passed!');
-                    assert.end();
-                    done();
+                    assert.pass('Deleted a specific document successfully, test passed!')
+                    assert.end()
+                    done()
                 })
         })
     })
